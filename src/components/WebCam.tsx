@@ -165,7 +165,7 @@ const WebCam = ({
     }, [videoRef]);
 
     return (
-        <div className="absolute bottom-0 z-[-1] flex flex-row-reverse items-end justify-between w-full min-h-screen">
+        <div className="absolute px-10 bottom-5 z-[-1] flex flex-row-reverse items-end justify-between w-full min-h-screen">
             <video
                 className="input_video w-80 "
                 ref={videoRef}
